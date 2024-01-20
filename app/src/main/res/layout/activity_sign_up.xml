@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:src="@drawable/signup" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an New Acoount"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            ></TextView>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileimage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circle"
+                android:scaleType="centerCrop"
+
+
+                ></de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#272626"
+                android:textColorHint="#272626"
+
+                android:layout_gravity="center"
+                ></TextView>
+
+
+        </FrameLayout>
+
+
+        <EditText
+            android:id="@+id/signupnameid"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/boxshape"
+            android:textColorHint="#737272"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:hint="Enter Your Name"
+
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/signemailid"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/boxshape"
+            android:textColorHint="#737272"
+
+
+
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:hint="Enter Your Email"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/signuppasswordlid"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/boxshape"
+            android:textColorHint="#737272"
+            android:padding="10dp"
+            android:hint="Enter Your Password"
+
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/signupreenterpasswordlid"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/boxshape"
+            android:textColorHint="#737272"
+            android:padding="10dp"
+
+            android:hint="Re-enter Your Password"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signupsignupid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#72DCA2"
+            android:text="Signup"
+            android:textSize="16sp"
+
+
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:padding="5dp"
+
+
+            android:layout_marginTop="20dp" />
+
+
+        <Button
+
+            android:id="@+id/Signuploginid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:textColor="@color/black"
+            android:text="Login!"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:textSize="16sp"
+
+            /></LinearLayout>
+
+
+
+</ScrollView>
